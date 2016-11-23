@@ -46,6 +46,8 @@ div.fixed	{
 			position: fixed;
 			bottom: -12px;
 			right: 0;
+			width: 200px;
+
 			
 
 }
