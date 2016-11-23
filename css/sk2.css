@@ -42,7 +42,7 @@ ul
 			padding-left: 0;
 			}
 
-div.fixed	{
+.fixed	{
 			position: fixed;
 			bottom: -12px;
 			right: 0;
