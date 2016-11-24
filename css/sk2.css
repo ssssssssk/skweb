@@ -1,16 +1,18 @@
 			
-h1			{	
+.jumbo			{	
 			font-family: 'Roboto', sans-serif;
+			font-weight: 500;
 			/*color: #3479e1; */
 			font-size: 7vmin;
 			-webkit-font-smoothing: antialiased; /* This needs to be set or some font faced fonts look bold on Mac in Chrome/Webkit based browsers. */
 -moz-osx-font-smoothing: grayscale; /* Fixes font bold issue in Firefox version 25+ on Mac */
 			}
-h2
+.medium
 			{
 			font-family: 'Roboto', sans-serif;
 			font-size: 5vmin;
-			line-height: .5;
+			font-weight: 500;
+			
 			-webkit-font-smoothing: antialiased; /* This needs to be set or some font faced fonts look bold on Mac in Chrome/Webkit based browsers. */
 -moz-osx-font-smoothing: grayscale; /* Fixes font bold issue in Firefox version 25+ on Mac */
 			/*color: darkgray;*/
