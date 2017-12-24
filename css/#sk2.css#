@@ -1,7 +1,7 @@
 
 
-.jumbo			{
-			font-family: 'Helventica', sans-serif;
+.jumbo			{	
+			font-family: 'Roboto', sans-serif;
 			font-weight: 500;
 			/*color: #3479e1; */
 			font-size: 7vmin;
@@ -10,7 +10,7 @@
 			}
 .medium
 			{
-			font-family: 'Helvetica', sans-serif;
+			font-family: 'Roboto', sans-serif;
 			font-size: 5vmin;
 			font-weight: 500;
 			-webkit-font-smoothing: antialiased; /* This needs to be set or some font faced fonts look bold on Mac in Chrome/Webkit based browsers. */
@@ -19,25 +19,25 @@
 			}
 html
 			{
-			font-family: 'Helvetica', sans-serif;
+			font-family: 'Karla', sans-serif;
 			/*color: darkgray;*/
 			font-size: 3vmin;
 		/*	letter-spacing: .2vmin; */
-			    line-height: 1.5;
+			line-height: 1.5;
 			}
-a:link
+a:link		
 			{
 			color: #3479e1;
 			text-decoration: none;
 			}
 
-a:visited
-			{
+a:visited	
+			{		
 			color: #3479e1;
 			text-decoration: none;
 			}
 
-a:hover
+a:hover		
 			{
 			color: gray;
 			text-decoration: underline;
@@ -54,18 +54,18 @@ ul
 			right: 0;
 			width: 200px;
 
-
+			
 
 }
-
+				
     /* img     {
                 height: 100vh;
                 width: 100%;
-                margin:0px;
+                margin:0px; 
                 padding:0px;
                 }
         .fill1 {
-                object-fit: cover
+                object-fit: cover 
                 }
 
         .fill2 {
