@@ -11,10 +11,11 @@
 
 .jumbo			{
     font-family: 'Lars-Light', sans-serif;
-    /* font-weight: 300; */
+    /*     font-weight: 500; */
     /*color: #3479e1; */
-    font-size: 7vmin;
-  
+    font-size: 3vmin;
+    /*     font-weight: bold; */
+    letter-spacing: .2vmin;
     -webkit-font-smoothing: antialiased; /* This needs to be set or some font faced fonts look bold on Mac in Chrome/Webkit based browsers. */
     -moz-osx-font-smoothing: grayscale; /* Fixes font bold issue in Firefox version 25+ on Mac */
 }
@@ -22,8 +23,9 @@
 {
     font-family: 'Lars-Light', sans-serif;
     font-size: 3vmin;
-    text-transform: uppercase;
-    letter-spacing: .2vmin;
+    text-decoration: underline;
+    letter-spacing: .1vmin;
+    
     /* font-weight: 300; */
     -webkit-font-smoothing: antialiased; /* This needs to be set or some font faced fonts look bold on Mac in Chrome/Webkit based browsers. */
     -moz-osx-font-smoothing: grayscale; /* Fixes font bold issue in Firefox version 25+ on Mac */
@@ -39,6 +41,8 @@ html
     line-height: 1.5;
     -webkit-font-smoothing: antialiased; /* This needs to be set or some font faced fonts look bold on Mac in Chrome/Webkit based browsers. */
     -moz-osx-font-smoothing: grayscale; /* Fixes font bold issue in Firefox version 25+ on Mac */
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
 }
 a:link
 {
