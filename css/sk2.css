@@ -68,12 +68,11 @@ ul
     padding-left: 0;
 }
 
-.fixed	{
-  
+.fixed	{ 
   position: fixed;
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: 10%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  top: 50%;
   z-index: -1;
 
 }
@@ -108,8 +107,14 @@ ul
   0% {
     opacity: 0;
   }
+  10% {
+    opacity: 0;
+  }
   50% {
     opacity: 0.8;
+  }
+  90% {
+    opacity: 0;
   }
   100% {
     opacity: 0;
