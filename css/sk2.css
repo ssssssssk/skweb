@@ -44,8 +44,8 @@
   line-break: strict;
   word-wrap: break-word;
   /* Controversial full-justification */
-  /* text-align: justify;
-     text-justify: inter-word; */
+  text-align: justify;
+  text-justify: inter-word;
   
 }
 
@@ -63,6 +63,9 @@ ul {
   /* font-weight: 300; */
   /*	letter-spacing: .2vmin; */
   line-height: 1.5;
+  /* Controversial full-justification */
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 a:link
